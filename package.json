@@ -5,17 +5,24 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
+    "@mui/icons-material": "^5.11.0",
     "@mui/material": "latest",
+    "eslint": "^8.31.0",
     "react": "latest",
     "react-dom": "latest"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "latest",
+    "eslint-config-prettier": "^8.6.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.0",
+    "prettier": "2.8.2",
     "vite": "latest"
   }
 }
