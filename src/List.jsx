@@ -6,6 +6,9 @@ import ListItemText from "@mui/material/ListItemText";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import Avatar from "@mui/material/Avatar";
 import WorkIcon from "@mui/icons-material/Work";
+import VolumeUpIcon from '@mui/icons-material/VolumeUp';
+import FilterVintageIcon from '@mui/icons-material/FilterVintage';
+import DataObjectIcon from '@mui/icons-material/DataObject';
 
 export default function LinkList() {
   return (
@@ -27,7 +30,7 @@ export default function LinkList() {
         <ListItem>
           <ListItemAvatar>
             <Avatar>
-              <WorkIcon />
+              <DataObjectIcon />
             </Avatar>
           </ListItemAvatar>
           <ListItemText
@@ -40,7 +43,7 @@ export default function LinkList() {
         <ListItem>
           <ListItemAvatar>
             <Avatar>
-              <WorkIcon />
+              <FilterVintageIcon />
             </Avatar>
           </ListItemAvatar>
           <ListItemText
@@ -53,7 +56,7 @@ export default function LinkList() {
         <ListItem>
           <ListItemAvatar>
             <Avatar>
-              <WorkIcon />
+              <VolumeUpIcon />
             </Avatar>
           </ListItemAvatar>
           <ListItemText primary="Music" secondary="Demos and sketches" />
