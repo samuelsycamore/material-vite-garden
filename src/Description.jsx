@@ -14,7 +14,7 @@ export default function Description() {
         Sam Sycamore
       </Typography>
       <Typography gutterBottom>
-        is an American writer and web developer. He is the creator of{" "}
+        is an American writer, web developer, and musician. He is the creator of{" "}
         <Link href="https://www.thegoodliferevival.com/">
           <em>The Good Life Revival Podcast</em>
         </Link>{" "}
