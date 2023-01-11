@@ -22,7 +22,7 @@ export default function LinkList() {
           </ListItemAvatar>
           <ListItemText
             primary="Professional portfolio"
-            secondary="Sam's career as a writer and web developer"
+            secondary="Sam's career as a writer and programmer"
           />
         </ListItem>
       </Link>
