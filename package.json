@@ -15,7 +15,8 @@
     "@mui/material": "latest",
     "eslint": "^8.31.0",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-router-dom": "^6.8.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "latest",

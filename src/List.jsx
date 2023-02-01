@@ -12,8 +12,8 @@ import DataObjectIcon from '@mui/icons-material/DataObject';
 
 export default function LinkList() {
   return (
-    <List sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}>
-      <Link href="https://work.sycamore.garden/">
+    <List sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper"  }}>
+      <Link href="https://work.sycamore.garden/" sx={{ textDecoration: "none" }}>
         <ListItem>
           <ListItemAvatar>
             <Avatar>
@@ -26,7 +26,7 @@ export default function LinkList() {
           />
         </ListItem>
       </Link>
-      <Link href="https://tech.sycamore.garden/">
+      <Link href="https://tech.sycamore.garden/" sx={{ textDecoration: "none" }}>
         <ListItem>
           <ListItemAvatar>
             <Avatar>
@@ -39,7 +39,7 @@ export default function LinkList() {
           />
         </ListItem>
       </Link>
-      <Link href="https://foraging.sycamore.garden/">
+      <Link href="https://foraging.sycamore.garden/" sx={{ textDecoration: "none" }}>
         <ListItem>
           <ListItemAvatar>
             <Avatar>
@@ -52,14 +52,14 @@ export default function LinkList() {
           />
         </ListItem>
       </Link>
-      <Link href="https://www.sycamore.garden/music">
+      <Link href="https://www.sycamore.garden/music" sx={{ textDecoration: "none" }}>
         <ListItem>
           <ListItemAvatar>
             <Avatar>
               <VolumeUpIcon />
             </Avatar>
           </ListItemAvatar>
-          <ListItemText primary="Music" secondary="Demos and sketches" />
+          <ListItemText primary="Music" secondary="Recorded in Sam's living room" />
         </ListItem>
       </Link>
     </List>
